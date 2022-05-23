@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bordo{
+    border: 2px solid red;
+}
 .p-fix{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 .d-flex{
     display: flex;
@@ -62,16 +66,73 @@ li a{
 nav{
     display: none;
 }
+
+
+/* main */
+
+.head-section{
+    margin-top: 150px;
+}
+.head-section .container{
+   width: 90%;
+   margin: 0 auto;
+}
+.box{
+    background-color: #80bcf8;
+    border-radius: 5%;
+    padding: 20px 10px;
+    margin: 25px auto;
+}
+.img-box img{
+    width: 300px;
+    position: relative;
+    top: 24px;
+}
+.head-section h1{
+    font-size: 30px;
+    margin: 15px 0;
+    color: var(--primecolor);
+}
+.head-section p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.developement-sec i{
+    font-size: 100px;
+    color: var(--primecolor);
+}
+.head-section .btn{
+    width: 150px;
+    padding: 5px 0;
+    background-color: var(--primecolor);
+    margin: 15px 0;
+    margin-left: 75px;
+}
+
 /* media-query */
 
 /* tablet */
 @media all and (min-width: 767px){
-    
+     /* main */
+    .head-section{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .head-section .box:first-child{
+        width: 65%;
+   }
+    .box{
+        width: 32%;
+        margin: 10px 6px;
+ 
+    }
 }
 
 
 /* desktop */
 @media all and (min-width: 991px){
+    /* header */
     nav{
         display: block;
         padding-top: 7px;
@@ -90,4 +151,19 @@ nav{
     .hamb-menu{
         display: none;
     }
+    /* main */
+   .head-section{
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+   }
+   .head-section .box:first-child{
+       width: 65%;
+       display: flex;
+  }
+   .box{
+       width: 32%;
+       margin: 10px 6px;
+
+   }
 }
