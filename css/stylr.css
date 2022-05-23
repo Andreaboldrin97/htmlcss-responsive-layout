@@ -215,6 +215,14 @@ nav{
         position: relative;
         left: 46%;
     }
+    /* testimonial section */
+    .testimonial-card{
+        display: flex;
+        text-align: left;
+    }
+    .card-text{
+        margin-top: 20px;
+    }
 }
 
 
@@ -302,4 +310,5 @@ nav{
 .strat-img img{
     width: 300px;
 }
+/* testimonial section */
 }
