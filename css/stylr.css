@@ -106,7 +106,7 @@ nav{
     padding: 5px 0;
     background-color: var(--primecolor);
     margin: 15px 0;
-    margin-left: 75px;
+    margin: 0 auto;
 }
 /* section-strategic */
 .strategic{
@@ -243,6 +243,32 @@ nav{
     padding: 5px ;
     margin: 20px 0;
 }
+/* section started */
+.started{
+    background-color: var(--secondcolor);
+    color: white;
+}
+.started h1{
+    margin: 20px auto;
+}
+.started p{
+    margin: 20px auto;
+}
+.focus{
+    color: rgb(255, 183, 93);
+    font-size: 60px;
+    margin: 20px auto;
+}
+.started .btn{
+    width: 150px;
+    background-color: white;
+    color: var(--secondcolor);
+    padding: 10px 20px;
+   margin: 20px auto;
+}
+.started a{
+    color: white;
+}
 
 /* media-query */
 
@@ -313,6 +339,7 @@ nav{
     .director-card{
         width: 30%;
     }
+    /* section started */
    
 }
 
@@ -429,4 +456,5 @@ nav{
         line-height: 17px;
     }
     /* section about us */
+    /* section started */
  }
