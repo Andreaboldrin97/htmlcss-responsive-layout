@@ -247,6 +247,7 @@ nav{
 .started{
     background-color: var(--secondcolor);
     color: white;
+    padding-bottom: 40px ;
 }
 .started h1{
     margin: 20px auto;
@@ -270,6 +271,23 @@ nav{
     color: white;
 }
 
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-reference {
+    margin: 40px auto;
+}
+.footer-reference a {
+    color: var(--secondcolor);
+}
+.footer-text{
+    margin-top: 40px;
+}
 /* media-query */
 
 /* tablet */
@@ -340,7 +358,17 @@ nav{
         width: 30%;
     }
     /* section started */
-   
+    .started .container{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    /* footer */
+
+    footer .container{
+        width: 50%;
+        margin: 0 auto;
+    }
 }
 
 
@@ -456,5 +484,28 @@ nav{
         line-height: 17px;
     }
     /* section about us */
+
+    .about-us{
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-director{
+        width: 60%;
+        margin: 10px;
+    }
+    .director-card{
+        width: 30%;
+    }
+    
     /* section started */
- }
+      .started .container{
+        width: 50%;
+        margin: 0 auto;
+    }
+      /* footer */
+
+      footer .container{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
