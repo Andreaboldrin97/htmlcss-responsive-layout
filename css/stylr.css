@@ -259,6 +259,15 @@ nav{
         margin-top: 20px;
     }
     /* section work-w-us */
+    .work-cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .work-card{
+        width: 45%;
+        margin-right: 10px;
+    }
 }
 
 
