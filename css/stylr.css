@@ -176,6 +176,41 @@ nav{
 .testimonial-card h1{
     color:white;
 }
+/* section work-w-us */
+.work-w-us{
+    background-color: var(--secondcolor);
+    margin-top: 60px;
+    color: white;
+}
+.work-w-us h1{
+    font-size: 40px;
+    margin: 15px auto;
+}
+.work-card{
+    background-color: white;
+    color: var(--secondcolor);
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 10px 50px;
+}
+.text-number{
+    font-size: 45px;
+    margin: 20px auto;
+}
+.work-card h2{
+    margin: 15px auto;
+}
+.work-card p{
+    margin: 15px auto;
+    line-height: 25px;
+}
+.work-card .btn{
+    background-color: var(--secondcolor);
+    width: 100px;
+    padding: 5px ;
+    margin: 20px 0;
+}
+
 /* media-query */
 
 /* tablet */
@@ -223,6 +258,7 @@ nav{
     .card-text{
         margin-top: 20px;
     }
+    /* section work-w-us */
 }
 
 
@@ -323,3 +359,4 @@ nav{
 .card-text{
     margin-top: 20px;
 }
+/* section work-w-us */
