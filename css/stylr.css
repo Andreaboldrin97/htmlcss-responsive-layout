@@ -146,6 +146,36 @@ nav{
     font-size: 20px;
     top: 15px;
 }
+
+/* testimonial section */
+
+.testimonial-card{
+    background-color: var(--secondcolor);
+    color: white;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 10px 50px;
+}
+.testimonial-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 15px;
+}
+.text{
+    margin: 30px;
+}
+.testimonials h1{
+    color: var(--secondcolor);
+    margin: 30px auto;
+}
+.testimonials p{
+    line-height: 25px;
+}
+.testimonial-card h1{
+    color:white;
+}
 /* media-query */
 
 /* tablet */
