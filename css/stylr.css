@@ -32,7 +32,7 @@ li a{
 }
 :root {
     --primecolor:  rgb(0, 121, 248);
-    --secondcolor: rgb(139, 135, 221);
+    --secondcolor: rgb(150, 147, 224);
   }
   
 .btn{
@@ -108,7 +108,44 @@ nav{
     margin: 15px 0;
     margin-left: 75px;
 }
-
+/* section-strategic */
+.strategic{
+    background-color: var(--secondcolor);
+    color: white;
+}
+.box-strategic{
+    border-radius: 5%;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+}
+.strategic h1{
+    font-size: 30px;
+    margin: 30px 0;
+}
+.strategic p{
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 30px;
+}
+.strat-img img ,.box-strat-img img {
+    width: 350px;
+    margin-top: 20px;
+}
+.ancor{
+    width: 50px;
+    height: 50px;
+    background-color: var(--secondcolor);
+    border-radius: 100%;
+    position: relative;
+    left: 42%;
+    margin-bottom: 10px;
+}
+.ancor a{
+    position: relative;
+    font-size: 20px;
+    top: 15px;
+}
 /* media-query */
 
 /* tablet */
