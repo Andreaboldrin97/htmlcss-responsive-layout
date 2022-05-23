@@ -181,6 +181,10 @@ nav{
     .strategic h1{
         font-size: 50px;
     }
+    .ancor{
+        position: relative;
+        left: 46%;
+    }
 }
 
 
