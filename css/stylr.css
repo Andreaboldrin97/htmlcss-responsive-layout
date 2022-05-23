@@ -210,6 +210,39 @@ nav{
     padding: 5px ;
     margin: 20px 0;
 }
+/* section about us */
+.about-us img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 15px;
+}
+.about-us h1{
+    color: var(--secondcolor);
+    font-size: 35px;
+    margin: 25px auto;
+}
+.about-us p{
+    margin: 20px auto;
+    line-height: 25px;
+}
+.director-card{
+    color: var(--secondcolor);
+    position: relative;
+}
+.img-director i{
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 35%;
+}
+.director-card .btn{
+    background-color: var(--secondcolor);
+    width: 200px;
+    padding: 5px ;
+    margin: 20px 0;
+}
 
 /* media-query */
 
@@ -268,6 +301,7 @@ nav{
         width: 45%;
         margin-right: 10px;
     }
+    /* section about us */
 }
 
 
@@ -382,4 +416,5 @@ nav{
         margin: 10px auto;
         line-height: 17px;
     }
+    /* section about us */
  }
