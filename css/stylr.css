@@ -235,7 +235,7 @@ nav{
     font-size: 60px;
     position: absolute;
     top: 0;
-    left: 35%;
+    left: 120px;
 }
 .director-card .btn{
     background-color: var(--secondcolor);
@@ -302,6 +302,18 @@ nav{
         margin-right: 10px;
     }
     /* section about us */
+    .about-us{
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-director{
+        width: 60%;
+        margin: 10px;
+    }
+    .director-card{
+        width: 30%;
+    }
+   
 }
 
 
