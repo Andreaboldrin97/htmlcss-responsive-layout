@@ -505,7 +505,7 @@ footer{
         justify-content: space-between;
     }
     .work-card{
-        width: 32%;
+     width: calc(33.333% - 6px);
        margin: 10px 3px;
     }
     .work-card p{
@@ -550,8 +550,7 @@ footer{
         justify-content: space-between;
     }
     .work-card{
-        width: 32%;
-        margin:10px 1px;
+        width: calc(33.333% - 6px);
     }
     .boxs-strategic{
         justify-content: space-between;
