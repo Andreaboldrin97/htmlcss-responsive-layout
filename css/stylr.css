@@ -444,6 +444,7 @@ footer{
   }
   .box-strategic-r{
       align-self: flex-end;
+      min-width: 300px;
   }
   .box-strategic-r h1, .box-strategic-l h1{
     font-size: 20px;
@@ -524,5 +525,11 @@ footer{
     .work-card{
         width: 32%;
         margin:10px 1px;
+    }
+    .boxs-strategic{
+        justify-content: space-between;
+    }
+    .box-strategic-r{
+        max-width: 350px;
     }
 }
