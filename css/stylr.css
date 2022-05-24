@@ -106,7 +106,6 @@ nav{
     padding: 5px 0;
     background-color: var(--primecolor);
     margin: 15px 0;
-    margin: 0 auto;
 }
 /* section-strategic */
 .strategic{
@@ -311,6 +310,9 @@ footer{
     }
     .developement-sec i{
         font-size: 70px;
+    }
+    .developement-sec p{
+        line-height: 50px;
     }
     /* section-strategic */
     .strat-img {
