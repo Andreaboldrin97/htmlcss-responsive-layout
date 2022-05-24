@@ -184,14 +184,13 @@ nav{
 }
 .work-w-us h1{
     font-size: 40px;
-    margin: 15px auto;
+    margin: 55px auto;
 }
 .work-card{
     background-color: white;
     color: var(--secondcolor);
     border-radius: 40px;
     margin-top: 20px;
-    padding: 10px 50px;
 }
 .text-number{
     font-size: 45px;
@@ -515,7 +514,7 @@ footer{
 /* desktop xxl */
 @media all and (min-width: 1112px){
     .container{
-        width: 70%;
+        width: 80%;
     }
      /* section work-w-us */
      .work-cards{
@@ -525,6 +524,6 @@ footer{
     }
     .work-card{
         width: 32%;
-        margin-right: 10px;
+        margin:10px 1px;
     }
 }
