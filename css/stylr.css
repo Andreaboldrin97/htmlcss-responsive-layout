@@ -298,10 +298,10 @@ footer{
         flex-wrap: wrap;
     }
     .head-section .box:first-child{
-        width: 63%;
+        width: calc( 66.666% - 10px);
    }
     .box{
-      width: 30%;
+      width: calc( 33.333% - 10px);
       margin: 10px 5px;
     }
     .head-section p{
@@ -407,11 +407,11 @@ footer{
        margin-top: 75px;
    }
    .head-section .box:first-child{
-       width: calc(66,666% - 10px);
+       width: calc( 66.666% - 10px);
        display: flex;
   }
    .box{
-       width: calc( 33,333% - 10px);
+       width: calc( 33.333% - 10px);
        margin: 10px 5px;
    }
    .img-box{
