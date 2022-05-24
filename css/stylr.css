@@ -407,11 +407,11 @@ footer{
        margin-top: 75px;
    }
    .head-section .box:first-child{
-       width: 65%;
+       width: calc(66,666% - 10px);
        display: flex;
   }
    .box{
-       width: 30%;
+       width: calc( 33,333% - 10px);
        margin: 10px 5px;
    }
    .img-box{
