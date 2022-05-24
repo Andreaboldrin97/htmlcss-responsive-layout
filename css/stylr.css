@@ -79,7 +79,7 @@ nav{
 }
 .box{
     background-color: #80bcf8;
-    border-radius: 5%;
+    border-radius: 20px;
     padding: 20px 10px;
     margin: 25px auto;
 }
@@ -414,10 +414,11 @@ footer{
        width: 30%;
        margin: 10px 5px;
    }
+   .img-box{
+       align-self: flex-end;
+   }
    .img-box img{
-    width: 200px;
-    position: relative;
-    top: 47px;
+    width: 250px;
    }
    .head-section p{
     font-size: 15px;
@@ -443,8 +444,7 @@ footer{
   }
   .box-strategic-r{
       height: 480px;
-      position: relative;
-      top: 150px;
+      align-self: flex-end;
   }
   .box-strategic-r h1, .box-strategic-l h1{
     font-size: 20px;
@@ -509,5 +509,21 @@ footer{
       footer .container{
         width: 50%;
         margin: 0 auto;
+    }
+}
+/* desktop xxl */
+@media all and (min-width: 1112px){
+    .container{
+        width: 70%;
+    }
+     /* section work-w-us */
+     .work-cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .work-card{
+        width: 32%;
+        margin-right: 10px;
     }
 }
