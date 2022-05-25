@@ -261,7 +261,7 @@ nav{
     margin: 20px auto;
 }
 .started .btn{
-    width: 150px;
+    width: 200px;
     background-color: white;
     color: var(--secondcolor);
     padding: 10px 20px;
@@ -421,7 +421,7 @@ footer{
     nav .btn{
         background-color: white;
         color: black;
-        padding: 10px 20px;
+        padding: 5px 10px;
     }
     .hamb-menu{
         display: none;
